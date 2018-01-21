@@ -6,6 +6,7 @@ import frenchLanguage     from 'data/languages/fr';
 import indianLanguage     from 'data/languages/in';
 import japaneseLanguage   from 'data/languages/jp';
 import portugueseLanguage from 'data/languages/pt';
+import portugueseBRLanguage from 'data/languages/pt-br';
 import russianLanguage    from 'data/languages/ru';
 import turkishLanguage    from 'data/languages/tr';
 import italianLanguage    from 'data/languages/it';
@@ -30,6 +31,10 @@ export default {
     'pt': {
         name: 'Portuguese',
         data: portugueseLanguage
+    },
+    'pt-br': {
+        name: 'Brazilian Portuguese',
+        data: portugueseBRLanguage
     },
     'jp': {
         name: 'Japanese',
